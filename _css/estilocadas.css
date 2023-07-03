@@ -1,0 +1,57 @@
+@charset "UTF-8";
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+input[type=text], input[type=password], input[type=date]{
+    width: 25%;
+    padding: 15px 100px 15px 15px;
+    margin: 5px 0 22px 10px;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text].maislarguin{
+    width: 33%;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=date]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+input [type=checkbox]{
+    margin-bottom: 30px;
+}
+
+.cancelbtn {
+    padding: 14px 53px;
+    background-color: #EFD6BD;
+    color: black;
+    border: 1px solid #c0c0c0;
+}
+h4 {
+    color:#955A78;
+}
+.returnbtn{
+    padding: 14px;
+    background-color: #c0c0c0;
+    color: black;
+    border: 1px solid black;
+
+}
+#campo-todo{
+    text-align:center;
+    width:1150px;
+    box-shadow: 2px 2px 15px #955A78;
+    padding: 10px;
+    margin: 0px auto 0px auto;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 50%;
+    }
+}
+.container{
+    width: 1000px;
+    background-color: white;
+    margin-left: 10px auto 10px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 15px #95547;
+}
